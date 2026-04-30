@@ -60,6 +60,8 @@ pivot_table
 pivot_table_melted_format = pivot_table.reset_index().melt(id_vars='region', var_name='category', value_name= 'revenue')
 pivot_table_melted_format
 
+df_cleaned.head()
+
 
 
 
