@@ -40,6 +40,7 @@ orders_per_region
 orders_per_category = df_raw['category'].value_counts()
 orders_per_category
 
+df_raw['order_date']
 
 
 
