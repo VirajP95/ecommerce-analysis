@@ -90,6 +90,8 @@ df_clean.dtypes
 
 df_clean.shape
 
+df_clean.head()
+
 df_clean.to_csv("../data/clean/Cleaned_Data.csv", index=False)
 
 
