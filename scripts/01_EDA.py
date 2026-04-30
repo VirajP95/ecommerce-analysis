@@ -42,6 +42,8 @@ orders_per_category
 
 df_raw['order_date']
 
+df_raw.head(5)
+
 
 
 
