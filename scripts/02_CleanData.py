@@ -94,6 +94,11 @@ df_clean.head()
 
 df_clean.to_csv("../data/clean/Cleaned_Data.csv", index=False)
 
+#---------------------------- Additional cleaning needed
+
+df_clean.loc[(df_clean['product'] == 'Laptop') & (df_clean['unit_price'] == 800), 'unit_price'] = 1200
+
+
 
 
 
