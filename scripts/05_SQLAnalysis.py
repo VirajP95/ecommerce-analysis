@@ -151,6 +151,27 @@ query11 = """
 result11 = pd.read_sql(query11, conn)
 print(result11)
 
+# Running total of revenue ordered by date
+
+query12 = """
+    SELECT order_date, revenue, SUM(revenue) OVER (ORDER BY order_date ROWS BETWEEN UNBOUNDED
+    preceding and current row) as running_totals from orders
+
+"""
+
+result12 = pd.read_sql(query12, conn)
+print(result12)
+
+
+#  Each customer's most recent order date
+
+query13 = """
+    SELECT DISTINCT customer_name, MAX(order_date) OVER(PARTITION BY customer_name) as Last_Order
+    from orders
+"""
+
+result13 = pd.read_sql(query13, conn)
+print(result13)
 
 
 
