@@ -21,6 +21,12 @@ using Python, SQL and Power BI.
 - 2 duplicate orders removed during cleaning
 - 1 data quality issue found — Laptop price corrected
 
+## Data Quality Decisions
+- 1 order (Iris Chen) had missing region
+- Decision: filled with 'Unknown' to preserve revenue data
+- Unknown region filtered from regional charts in dashboard
+- Included in total revenue and order count KPIs
+
 ## Tools Used
 | Tool | Purpose |
 |---|---|
