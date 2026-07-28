@@ -1,7 +1,18 @@
 # Excel files
-
+~$*
 *.xlsx
 *.xls
+
+# Word files
 *.docx
+*.doc
 
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
 
+# OS files
+.DS_Store
+Thumbs.db
