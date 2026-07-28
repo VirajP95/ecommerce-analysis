@@ -1,1 +1,6 @@
- 
+# Excel files
+
+*.xlsx
+*.xls
+
+
