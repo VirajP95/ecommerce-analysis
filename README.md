@@ -36,8 +36,6 @@ using Python, SQL and Power BI.
 | Power BI | Dashboard and reporting |
 
 ## Dashboard Preview
-
-## Dashboard Preview
 ![Dashboard](images/Dashboard.png)
 
 ## Project Structure
