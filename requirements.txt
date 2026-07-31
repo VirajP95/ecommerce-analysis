@@ -3,3 +3,5 @@ numpy
 matplotlib
 seaborn
 openpyxl
+
+powerbi/Dashboard screenshot.png
