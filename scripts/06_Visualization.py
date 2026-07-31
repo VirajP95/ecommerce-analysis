@@ -105,3 +105,5 @@ pie = df.groupby('category')['revenue'].sum()
 plt.pie(pie, labels=pie.index, autopct="%1.1f%%", startangle=90)
 plt.title("Revenue Share by Product Category")
 plt.show()
+
+#----------------------
