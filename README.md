@@ -39,21 +39,25 @@ using Python, SQL and Power BI.
 ![Dashboard](images/Dashboard.png)
 
 ## Project Structure
+
+`````
+ecommerce-analysis/
 ├── data/
-│ ├── raw/ — original messy dataset
-│ └── clean/ — cleaned CSV and SQLite DB
+│   ├── raw/                — original messy dataset
+│   └── clean/              — cleaned CSV and SQLite DB
 ├── scripts/
-│ ├── 01_EDA.py — exploratory data analysis
-│ ├── 02_CleanData.py — data cleaning
-│ ├── 03_TransformData.py — feature engineering
-│ ├── 04_AnalyzeData.py — business analysis
-│ ├── 05_SQLAnalysis.py — SQL queries
-│ └── 06_Visualization.py — charts and plots
+│   ├── 01_EDA.py           — exploratory data analysis
+│   ├── 02_CleanData.py     — data cleaning
+│   ├── 03_TransformData.py — feature engineering
+│   ├── 04_AnalyzeData.py   — business analysis
+│   ├── 05_SQLAnalysis.py   — SQL queries
+│   └── 06_Visualization.py — charts and plots
 ├── powerbi/
-│ └── Dashboard.pbix
+│   └── Dashboard.pbix
 ├── sql/
-│ └── queries.sql
+│   └── queries.sql
 ├── README.md
 └── requirements.txt
+`````
 
 
