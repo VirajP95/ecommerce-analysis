@@ -108,6 +108,8 @@ high_spenders = df_cleaned.groupby('customer_name')['revenue'].sum()
 spenders_result = high_spenders[high_spenders > avg_spenders].sort_values(ascending=False).reset_index()
 spenders_result
 
+#----------------------
+
 
 
 
