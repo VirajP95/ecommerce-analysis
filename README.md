@@ -35,6 +35,11 @@ using Python, SQL and Power BI.
 | SQL (SQLite) | Data querying |
 | Power BI | Dashboard and reporting |
 
+## Dashboard Preview
+
+## Dashboard Preview
+![Dashboard](images/Dashboard.png)
+
 ## Project Structure
 
 
